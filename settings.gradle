@@ -1,0 +1,2 @@
+rootProject.name = "valet"
+include ':app'
