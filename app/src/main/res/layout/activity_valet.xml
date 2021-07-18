@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="res.layout.valet">
+
+    <TextView
+        android:id="@+id/tituloNovoCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Carro "
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <EditText
+        android:id="@+id/modeloCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="133dp"/>
+
+    <TextView
+        android:id="@+id/modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modelo:"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:id="@+id/placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placa:"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <EditText
+        android:id="@+id/placaCarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <Button
+        android:id="@+id/salvarCarro"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:text="Salvar"
+        android:textColor="#000000"
+        app:backgroundTint="#D6D1D1"
+        app:iconTint="#000000"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="274dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
